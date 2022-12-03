@@ -1,0 +1,35 @@
+{
+  "name": "users-backend",
+  "version": "1.0.0",
+  "description": "Experimental backend for users-app frontend.",
+  "main": "index.js",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggrunwald97/users-backend.git"
+  },
+  "author": "ggrunwald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggrunwald97/users-backend/issues"
+  },
+  "homepage": "https://github.com/ggrunwald97/users-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "2.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
